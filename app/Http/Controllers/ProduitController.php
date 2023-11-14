@@ -18,6 +18,11 @@ class ProduitController extends Controller
 
     }
 
+    public function index()
+    {
+        return view('index');
+    }
+
 
     /**
      * return le formulaire de créationcreation d'un contact

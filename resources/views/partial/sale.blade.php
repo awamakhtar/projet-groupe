@@ -52,10 +52,10 @@
   </div>
 
 
-  <div class="container">
+    <div class="container ">
         <div class="row">
             <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-                <div class="card bg-light">
+                <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
                     <img src="assets/g92-2-500x500-1-15L.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-5 col-md-3 col-12 col-sm-6 col-lg-3">
                     <div class="icon-heart-eye py-5">
                         <a href=""><i class="bi bi-suit-heart"></i> </a>
@@ -73,42 +73,91 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
-                        <p class="text-en-gras py-1 mx-2 fw-bold">(55)</p>
+                        <p class="text-en-gras  mx-2 fw-bold">(55)</p>
                      </div>
                 </div>
             </div>
 
 
-       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
-            <img src="assets/ak-900-01-500x500-1-3w8.png" alt="" class="card-img-top mx-5  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-            <button class="bg-dark text-white  btn-cart">Add To Cart</button>
-            <div class="icon-heart-eye py-1">
-              <a href=""><i class="bi bi-suit-heart"></i> </a>
-              <a href=""><i class="bi bi-eye"></i></a>
-            </div>
-        </div>
-        <div class="card-body mx-2">
-            <h6 class="card-title">AK-900 Wired Keyboard</h6>
-            <div class="d-flex">
-              <div class="d-flex">
-                  <p class="text-danger py-3 fw-bold">$960 <span class="text-black py-3 mx-2 text-decoration-line-through fw-bold">$1160</span></p>
-            </div>
-          </div>
-            <div class="d-flex">
-                <div class="stars mx-2 py-2 d-flex justify-content-end">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill start-fil"></i>
-                  <i class="bi bi-star-fill start-fil"></i>
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
+                    <img src="assets/ak-900-01-500x500-1-3w8.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                    <button class="bg-dark text-white mt-5 py-3 btn-cart">Add To Cart</button>
+                    <div class="icon-heart-eye py-1">
+                        <a href=""><i class="bi bi-suit-heart"></i> </a>
+                        <a href=""><i class="bi bi-eye"></i></a>
+                    </div>
                 </div>
-                <p class="text-en-gras py-2 fw-bold">(75)</p>
-            </div>
+                    <div class="card-body mx-2">
+                        <h6 class="card-title">AK-900 Wired Keyboard</h6>
+                        <div class="d-flex">
+                            <div class="d-flex">
+                                <p class="text-danger py-3 fw-bold">$960 <span class="text-black py-3 mx-2 text-decoration-line-through fw-bold">$1160</span></p>
+                            </div>
+                        </div>
+                            <div class="stars mx-2 py-2 d-flex">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill start-fil"></i>
+                                <i class="bi bi-star-fill start-fil"></i>
+                                <p class="text-en-gras  fw-bold">(75)</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                    <div class="card  border-0" style=" background-color: #f2f2f2;height: 250px;">
+                        <img src="assets/g92-2-500x500-1-15L.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-5 col-md-3 col-12 col-sm-6 col-lg-3">
+                        <div class="icon-heart-eye py-5">
+                            <a href=""><i class="bi bi-suit-heart"></i> </a>
+                            <a href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">GP11 Shooter USB Gamepad</h6>
+                        <div class="d-flex">
+                            <p class="text-danger py-3 fw-bold">$120 <span class="text-black py-3 mx-2 text-decoration-line-through fw-bold">$160</span></p>
+                        </div>
+                        <div class="stars d-flex ">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <p class="text-en-gras  mx-2 fw-bold">(55)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                    <div class="card  border-0" style=" background-color: #f2f2f2;height: 250px;">
+                        <img src="assets/g92-2-500x500-1-15L.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-5 col-md-3 col-12 col-sm-6 col-lg-3">
+                        <div class="icon-heart-eye py-5">
+                            <a href=""><i class="bi bi-suit-heart"></i> </a>
+                            <a href=""><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">GP11 Shooter USB Gamepad</h6>
+                        <div class="d-flex">
+                            <p class="text-danger py-3 fw-bold">$120 <span class="text-black py-3 mx-2 text-decoration-line-through fw-bold">$160</span></p>
+                        </div>
+                        <div class="stars d-flex ">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <p class="text-en-gras  mx-2 fw-bold">(55)</p>
+                        </div>
+                    </div>
+                </div>
         </div>
+        <div class=" mx-auto  col-12 col-md-3 col-sm-6 col-lg-6 ">
+        <button class="btn btn-lg btn-danger btn-button mx-5" type="button">View All Products</button>
       </div>
-        </div>
-  </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

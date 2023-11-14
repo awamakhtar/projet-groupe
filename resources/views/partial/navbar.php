@@ -183,7 +183,7 @@ visibility: hidden;
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign Up</a>
+                        <a class="nav-link" href="http://127.0.0.1:8000/sign-up">Sign Up</a>
                     </li>
                 </ul>
                     <form class="d-flex ">
