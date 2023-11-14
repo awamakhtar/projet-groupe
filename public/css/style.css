@@ -1,0 +1,44 @@
+.stars .bi-star-fill{
+    color: #e8c70ce0;
+    }
+.stars{
+    position: relative;
+    bottom: 20px;
+}
+.card{
+    background-color: #f2f2f2;
+    height: 250px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+    .image-fill a{
+    color: #000;
+    }
+    .image-fill{
+    justify-content: center;
+    text-align: center;
+    margin-left:80%;
+    }
+    .image-fill i{
+    background-color:#f2f2f2;
+    border-radius: 50%;
+    font-size: 24px;
+    }
+    .icon-heart-eye i{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: large;
+    }
+    .icon-heart-eye{
+        margin-bottom: 20px;
+    }
+    .icon-heart-eye a{
+    color: #000;
+    margin: 10px;
+    }
+    
