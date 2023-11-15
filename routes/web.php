@@ -11,6 +11,15 @@ Route::get('/', function () {
 Route::get('/sign-up', function () {
     return view('sign');
 });
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/whislist', function () {
+    return view('whislist');
+});
+Route::get('/about', function () {
+    return view('about');
+});
 
 Route::controller(ProduitController::class)->group(function () {
 

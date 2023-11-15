@@ -45,7 +45,7 @@
                     </div>
                     <div class="d-flex pt-3">
                         <p class="para3 me-3">Already have account?</p>
-                        <a href="http://127.0.0.1:5501/login.html" class="lg1"> Log in</a>
+                        <a href="http://127.0.0.1:5501/login.html" class="lg1 text-decoration-none text-black"> Log in</a>
                     </div>
                   </form>
             </div>
@@ -53,5 +53,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   @include('partial.footer')
 </body>
 </html>

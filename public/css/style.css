@@ -91,7 +91,6 @@
           scrollbar-width: none;
 
       }
-
       .cartCategorie::-webkit-scrollbar{
         display: none;
       }
@@ -106,7 +105,6 @@
       .category-phone:hover {
         background-color: red;
       }
-
       .category-phone3 {
         border: 1px solid black;
         padding: 20px;
@@ -117,9 +115,6 @@
       .category-phone3:hover {
         background-color: red;
       }
-
-
-
       .phones {
         font-size: 25px;
 
@@ -337,4 +332,14 @@
     .titre-1{
         position: relative;
         left: 6px;
+    }
+    .image-color-change{
+        position: relative;
+        bottom: 50px;
+    }
+    .custom-section {
+        background-color: #000;
+        color: #fff;
+        width: 130vh;
+        height: 50vh;
     }

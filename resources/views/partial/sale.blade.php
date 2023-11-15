@@ -91,18 +91,16 @@
                     <div class="card-body mx-2">
                         <h6 class="card-title">AK-900 Wired Keyboard</h6>
                         <div class="d-flex">
-                            <div class="d-flex">
-                                <p class="text-danger py-3 fw-bold">$960 <span class="text-black py-3 mx-2 text-decoration-line-through fw-bold">$1160</span></p>
-                            </div>
+                            <p class="text-danger py-3 fw-bold">$960 <span class="text-black py-3 mx-2 text-decoration-line-through fw-bold">$1160</span></p>
                         </div>
-                            <div class="stars mx-2 py-2 d-flex">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill start-fil"></i>
-                                <i class="bi bi-star-fill start-fil"></i>
-                                <p class="text-en-gras  fw-bold">(75)</p>
-                            </div>
+                        <div class="stars mx-2 py-2 d-flex">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill start-fil"></i>
+                            <i class="bi bi-star-fill start-fil"></i>
+                            <p class="text-en-gras  fw-bold">(75)</p>
+                        </div>
                     </div>
                 </div>
 
@@ -155,11 +153,9 @@
                 </div>
         </div>
         <div class=" mx-auto  col-12 col-md-3 col-sm-6 col-lg-6 ">
-        <button class="btn btn-lg btn-danger btn-button mx-5" type="button">View All Products</button>
+       <a href="http://127.0.0.1:8000/whislist"> <button class="btn btn-lg btn-danger btn-button mx-5" type="button">View All Products</button></a>
       </div>
     </div>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
   </div>

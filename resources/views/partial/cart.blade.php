@@ -12,11 +12,7 @@
 </head>
 <body>
 
-    <style>
-     
-    </style>
-
-<div class="py-5">
+<div class=" ">
         <div class="  mx-5">
             <div class="d-flex mx-3">
                 <div class="rectangle"></div>
@@ -29,7 +25,7 @@
           <a href=""><i class="bi bi-arrow-right icon_arrow"></i></a>
         </div>
     </div>
-  <div class="container content">
+  <div class="container py-0 content">
       <div class="row">
           <div class="col-md-3 col-12 col-sm-6 col-lg-3">
               <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
@@ -58,9 +54,9 @@
 
           <div class="col-md-3 col-12 col-sm-6 col-lg-3">
             <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                <img src="assets/eos-250d-03-500x500-1-5ar.png" alt="" class="card-img-top mx-5  h-50 w-50 mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-                <button class="bg-dark text-white mt-5 py-2 btn-cart">Add To Cart</button>
-                <div class="icon-heart-eye py-1">
+                <img src="assets/eos-250d-03-500x500-1-5ar.png" alt="" class="card-img-top h-80 w-80 mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                <button class="bg-dark text-white py-2 btn-cart">Add To Cart</button>
+                <div class="icon-heart-eye mb-5">
                   <a href=""><i class="bi bi-suit-heart"></i> </a>
                   <a href=""><i class="bi bi-eye"></i></a>
                 </div>
@@ -83,8 +79,8 @@
           </div>
           <div class="col-md-3 col-12 col-sm-6 col-lg-3">
             <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                <img src="assets/ideapad-gaming-3i-01-500x500-1-QA6.png" alt="" class="card-img-top mx-5 h-50 w-50  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-                <div class="icon-heart-eye py-5 mt-5">
+                <img src="assets/ideapad-gaming-3i-01-500x500-1-QA6.png" alt="" class="card-img-top h-80 w-80  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="icon-heart-eye mt-5">
                   <a href=""><i class="bi bi-suit-heart"></i> </a>
                   <a href=""><i class="bi bi-eye"></i></a>
                 </div>
@@ -107,8 +103,8 @@
 
           <div class="col-md-3 col-12 col-sm-6 col-lg-3">
             <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                <img src="assets/curology-j7pkvqrtusm-unsplash-1.png" alt="" class="card-img-top mx-5 h-50 w-50  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-                <div class="icon-heart-eye py-5 mt-5">
+                <img src="assets/curology-j7pkvqrtusm-unsplash-1.png" alt="" class="card-img-top h-90 w-60 mb-5 col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="icon-heart-eye mt-3">
                   <a href=""><i class="bi bi-suit-heart"></i> </a>
                   <a href=""><i class="bi bi-eye"></i></a>
                 </div>
@@ -131,9 +127,9 @@
           </div>
 
           <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-            <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                <img src="assets/new-mercedes-benz-gtr-licensed-ride-on-car-kids-electric-toy-car-1-7NJ.png" alt="" class="card-img-top mx-5 h-50 w-50   mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-                <div class="icon-heart-eye py-5 mt-5">
+            <div class="card border-0 " style=" background-color: #f2f2f2;height: 250px;">
+                <img src="assets/new-mercedes-benz-gtr-licensed-ride-on-car-kids-electric-toy-car-1-7NJ.png" alt="" class="card-img-top h-80 w-80 mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="icon-heart-eye mt-5">
                   <a href=""><i class="bi bi-suit-heart"></i> </a>
                   <a href=""><i class="bi bi-eye"></i></a>
                 </div>
@@ -142,7 +138,7 @@
                 <h6 class="card-title">Kids Electric Car</h6>
                 <div class="d-flex">
                     <p class="text-danger py-4">$960</p>
-                    <div class="stars mx-2 py-5 d-flex justify-content-end">
+                    <div class="stars mx-2 py-5 d-flex ">
                       <i class="bi bi-star-fill"></i>
                       <i class="bi bi-star-fill"></i>
                       <i class="bi bi-star-fill"></i>
@@ -150,7 +146,6 @@
                       <i class="bi bi-star-fill start-fil"></i>
                       <p class="text-en-gras py-0 mx-1 fw-bold">(65)</p>
                     </div>
-
                 </div>
                 <div class="image-color-change py-1">
                   <img src="assets/colour-chnage-GAE.png" alt="">
@@ -160,8 +155,8 @@
 
           <div class="col-md-3 col-12 col-sm-6 col-lg-3">
             <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                <img src="assets/copasense-1-2ki.png" alt="" class="card-img-top mx-5 h-50 w-50  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-                <div class="icon-heart-eye py-5 mt-5">
+                <img src="assets/copasense-1-2ki.png" alt="" class="card-img-top h-80 w-80  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="icon-heart-eye mt-5">
                   <a href=""><i class="bi bi-suit-heart"></i> </a>
                   <a href=""><i class="bi bi-eye"></i></a>
                 </div>
@@ -188,8 +183,8 @@
 
           <div class="col-md-3 col-12 col-sm-6 col-lg-3">
             <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                <img src="assets/gp11prd3-1-f2i.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-                <div class="icon-heart-eye py-5 mt-5">
+                <img src="assets/gp11prd3-1-f2i.png" alt="" class="card-img-top h-80 w-80 mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="icon-heart-eye mt-5">
                   <a href=""><i class="bi bi-suit-heart"></i> </a>
                   <a href=""><i class="bi bi-eye"></i></a>
                 </div>
@@ -216,8 +211,8 @@
 
           <div class="col-md-3 col-12 col-sm-6 col-lg-3 ">
             <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                <img src="assets/z8a1x34750011000000light-reversible-quilted-satin-jacket-1-3AA.png" alt="" class="card-img-top mx-5 h-50 w-50  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
-                <div class="icon-heart-eye py-5 mt-5">
+                <img src="assets/z8a1x34750011000000light-reversible-quilted-satin-jacket-1-3AA.png" alt="" class="card-img-top h-80 w-80  mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="icon-heart-eye mt-5">
                   <a href=""><i class="bi bi-suit-heart"></i> </a>
                   <a href=""><i class="bi bi-eye"></i></a>
                 </div>
@@ -241,7 +236,7 @@
             </div>
           </div>
           <div class="  mx-auto col-md-6 col-12">
-            <button class="btn btn-lg btn-danger btn-button btn-block mx-5" type="button">View All Products</button>
+           <a href="http://127.0.0.1:8000/whislist" class="text-decoration-none"><button class="btn btn-lg btn-danger btn-button btn-block mx-5" type="button">View All Products</button></a>
           </div>
 
       </div>

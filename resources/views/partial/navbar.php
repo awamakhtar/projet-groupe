@@ -174,7 +174,7 @@ visibility: hidden;
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="http://127.0.0.1:8000/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -186,7 +186,7 @@ visibility: hidden;
                         <a class="nav-link" href="http://127.0.0.1:8000/sign-up">Sign Up</a>
                     </li>
                 </ul>
-                    <form class="d-flex ">
+                    <form class="d-flex mx-5">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
                     </form>

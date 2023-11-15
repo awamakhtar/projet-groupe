@@ -11,6 +11,7 @@
         @include('partial.header')
         @include('partial.sale')
         @include('partial.category')
+        <!-- @include('partial.selling') -->
         @include('partial.cart')
         @include('partial.feature')
         @include('partial.footer')

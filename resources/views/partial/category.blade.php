@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <div class="container-fluid p-0 mb-5">
+    <div class="container-fluid p-0 mb-5 py-5">
       <div class="container ">
         <div class="categories">
           <h6 style="color: red;"> <span class="cares">x</span>Categories</h6>
