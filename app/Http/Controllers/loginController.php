@@ -9,8 +9,7 @@ class loginController extends Controller
 {
      public function login(){
         // dd('login page');
-        return view ('auth.login');
-        return redirect('index2');
+         return view ('auth.login');
 
      }
 
@@ -30,6 +29,6 @@ class loginController extends Controller
 
      public function create(Request $request){
         // dd('$request->all()');
-        return redirect('index');
+        return redirect('login');
      }
 }
