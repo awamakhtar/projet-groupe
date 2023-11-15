@@ -56,7 +56,7 @@
         <div class="row">
             <div class="col-md-3 col-12 col-sm-6 col-lg-3">
                 <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                    <img src="assets/g92-2-500x500-1-15L.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-5 col-md-3 col-12 col-sm-6 col-lg-3">
+                  <a href=""></a>  <img src="assets/g92-2-500x500-1-15L.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-5 col-md-3 col-12 col-sm-6 col-lg-3">
                     <div class="icon-heart-eye py-5">
                         <a href=""><i class="bi bi-suit-heart"></i> </a>
                         <a href=""><i class="bi bi-eye"></i></a>

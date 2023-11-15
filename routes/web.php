@@ -20,6 +20,9 @@ Route::get('/whislist', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/details', function () {
+    return view('details');
+});
 
 Route::controller(ProduitController::class)->group(function () {
 
