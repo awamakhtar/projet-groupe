@@ -16,23 +16,20 @@ class ProduitController extends Controller
         $produits = produit::all();
         return view('produits.page', compact('produits'));
     }
-    
-   
-    public function about()
-    {
-        return view('about');
-    }
+
+
+  
     public function sign()
     {
         return view('sign');
     }
-    
+
 
     public function index()
     {
         return view('index');
     }
-   
+
 
     public function about()
     {
