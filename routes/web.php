@@ -1,25 +1,21 @@
 <?php
-
 use App\Http\Controllers\ProduitController;
 use Illuminate\Support\Facades\Route;
+
 
 
 
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/sign-up', function () {
-    return view('sign');
-});
-Route::get('/login', function () {
-    return view('login');
-});
+
 Route::get('/whislist', function () {
     return view('whislist');
 });
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/home',[ProduitController::class, 'index'])->name('home');
+Route::get('/about',[ProduitController::class, 'about'])->name('about');
+Route::get('/sign',[ProduitController::class, 'sign'])->name('sign');
+
 Route::get('/details', function () {
     return view('details');
 });
