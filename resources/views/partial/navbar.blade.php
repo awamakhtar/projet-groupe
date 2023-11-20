@@ -174,16 +174,16 @@ visibility: hidden;
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://127.0.0.1:8000/">Home</a>
+                        <a class="nav-link" href="{{route('index')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://127.0.0.1:8000/about">About</a>
+                        <a class="nav-link" href="{{ route('about') }}">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://127.0.0.1:8000/sign-up">Sign Up</a>
+                        <a class="nav-link" href="{{route('sign'}}">Sign Up</a>
                     </li>
                 </ul>
                     <form class="d-flex mx-5">

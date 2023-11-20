@@ -4,25 +4,16 @@ use App\Http\Controllers\ProduitController;
 use Illuminate\Support\Facades\Route;
 
 
+Route::get('/home', [ProduitController::class, 'index'])->name('home');
+Route::get('/about', [ProduitController::class, 'about'])->name('about');
+Route::get('/sign', [ProduitController::class, 'register'])->name('sign');
+Route::get('/login', [ProduitController::class, 'login'])->name('login');
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/sign-up', function () {
-    return view('sign');
-});
-Route::get('/login', function () {
-    return view('login');
-});
-Route::get('/whislist', function () {
-    return view('whislist');
-});
-Route::get('/about', function () {
-    return view('about');
-});
 Route::get('/details', function () {
     return view('details');
 });
+
+
 
 Route::controller(ProduitController::class)->group(function () {
 
@@ -38,3 +29,11 @@ Route::controller(ProduitController::class)->group(function () {
     Route::delete('/produit/{id}', 'destroy');
 
 });
+
+// Auth::routes();
+
+
+// Route::get('/index', [HomeController::class, 'index'])->name('index');
+// Route::get('/login', [loginController::class, 'login'])->name('login');
+// Route::get('/register', [loginController::class, 'register'])->name('register');
+// Route::get('/register-user', [loginController::class, 'create'])->name('create-user');

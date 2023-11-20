@@ -17,7 +17,6 @@
 </head>
 <body>
     @include('partial.navbar')
-
     <div class="container py-5">
         <div class="row">
             <div class="col-lg-6 col-md-12 ">
@@ -26,7 +25,8 @@
             <div class="col-lg-5 col-md-12">
                 <h1>Create an Account</h1>
                 <p class="para3">Enter your details below</p>
-                <form>
+                <form action="{{route('create-user'}}" method="GET">
+                    @csrf
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Name</label>
                       <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
@@ -45,13 +45,12 @@
                     </div>
                     <div class="d-flex pt-3">
                         <p class="para3 me-3">Already have account?</p>
-                        <a href="http://127.0.0.1:5501/login.html" class="lg1 text-decoration-none text-black"> Log in</a>
+                        <a href="{{route('login'}}" class="lg1 text-decoration-none text-black"> Log in</a>
                     </div>
                   </form>
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
    @include('partial.footer')
 </body>

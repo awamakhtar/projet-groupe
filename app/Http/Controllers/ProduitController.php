@@ -23,6 +23,37 @@ class ProduitController extends Controller
         return view('index');
     }
 
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function login()
+    {
+        return view('aut.login');
+    }
+
+    public function register()
+    {
+        return view('auth.register');
+    }
+
+    public function details()
+    {
+        return view('details');
+    }
+
+    public function whislist()
+    {
+        return view('whislist');
+    }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+
 
     /**
      * return le formulaire de créationcreation d'un contact

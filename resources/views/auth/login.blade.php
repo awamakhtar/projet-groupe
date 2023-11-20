@@ -22,7 +22,8 @@
             <div class="col-lg-6 col-md-12">
                 <h1>Log in to Exclusive</h1>
                 <p class="para3">Enter your details below</p>
-                <form>
+                <form action="{{route('login')}}">
+                    @csrf
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email or Phone Number</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
