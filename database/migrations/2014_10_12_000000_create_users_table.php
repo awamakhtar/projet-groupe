@@ -20,6 +20,7 @@ return new class extends Migration
             $table->enum('role',['0','1','2'])->default(2)->comment('0:owner 1:manager 2:employees');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->integer('statut')->default(1);
             $table->rememberToken();
             $table->timestamps();
         });

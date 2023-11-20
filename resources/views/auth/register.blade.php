@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A700"/>
+    <link rel="stylesheet" href="{{ url('https://fonts.googleapis.com/css?family=Inter%3A700') }}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C500"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -30,6 +30,20 @@
             <form action="{{route('create-user')}}" method="GET">
 
                {{ csrf_field() }}
+
+                @if (session()->has('success'))
+                   <div class="alert alert-success">
+                        {{ session()->get('success') }}
+                   </div>
+                @endif
+
+
+                @if (session()->has('error'))
+                       <div class="alert alert-danger">
+                         {{ session()->get('error') }}
+                    </div>
+                 @endif 
+
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Name</label>
                       <input type="text" class="form-control" name="name" id="exampleInputEmail1" aria-describedby="nameHelp">
@@ -42,7 +56,11 @@
                       <label for="exampleInputPassword1"  class="form-label">Password</label>
                       <input type="password" class="form-control" name="password" id="exampleInputPassword1">
                     </div>
-                    <div>
+                    {{-- <div class="mb-3">
+                        <label for="exampleInputPassword1"  class="form-label">confirm Password</label>
+                        <input type="password" class="form-control" name="confirm" id="exampleInputPassword1">
+                      </div>
+                    <div> --}}
                         <button type="submit" class="btn btn-danger btn1 p-3 account">Create Account</button>
                         <button type="submit" class="btn btn-transparent btn2 p-3 mt-3"><img src="./assets/icon-google.png" alt="" width="6%"> Sign up with Google</button>
                     </div>

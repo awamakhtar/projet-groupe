@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\User;
+use Illuminate\support\Facades\Hash;
 
 class loginController extends Controller
 {
@@ -13,14 +15,6 @@ class loginController extends Controller
 
      }
 
-     public function index2(){
-        // dd('login page');
-        return view ('index2');
-
-     }
-
-
-
 
      public function register(){
         // dd('login page');
@@ -28,7 +22,14 @@ class loginController extends Controller
      }
 
      public function create(Request $request){
-        // dd('$request->all()');
-        return redirect('login');
+        $user = new User();
+    // if ($request-> confim != $request->password){
+    //     return redirect('register')->with('error','Both password are not matched!');
+    // }
+    $user->name = $request->name;
+    $user->email = $request->email;
+    $user->password = Hash::make($request->password);
+    $user->save();
+        return redirect('login')->with('message' ,'sufful');
      }
 }
