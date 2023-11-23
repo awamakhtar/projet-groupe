@@ -12,9 +12,6 @@
 </head>
 
 <style>
-
-
-
 .card {
     background-color:#f2f2f2;
     margin: 10px;
@@ -124,6 +121,9 @@ color: #000;
 margin: 10px;
 }
 
+/* span{
+    text-decoration: line-through;
+} */
 .supicone{
 position: absolute;
 
@@ -208,7 +208,7 @@ font-size: 16px;
   <div class="container mt-4">
     <div class="row">
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card w-100">
+        <div class="card w-100 border-0" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/c2st87460010820000light-gucci-savoy-medium-duffle-bag-1.png" class="card-img-top w-50 mx-5 py-2 m-4 col-md-3 col-12 col-sm-6 col-lg-3" alt="Image 1">
           <button class="bg-dark text-white mt-5 py-1 add1 ">Add To Cart</button>
           <div class="icon-heart-eye ">
@@ -221,38 +221,28 @@ font-size: 16px;
         <div class="card-body">
           <h6 class="card-title">Breed Dry Dog Food</h6>
           <div class="d-flex">
-              <p class="text-danger py-2">$100</p>
-              <div class="stars mx-2 py-3 d-flex justify-content-end">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
+              <p class="text-danger py-2">$100 <span class="text-decoration-line-through">$1160</span> </p>
 
-            </div>
+           </div>
         </div>
       </div>
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
+        <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/gammaxx-l240-argb-1-500x500-1.png" class="card-img-top w-50 mx-5 py-4 col-md-3 col-12 col-sm-6 col-lg-3" alt="Image 1">
           <button class="bg-dark text-white mt-5 py-1 add2 ">Add To Cart</button>
           <div class="icon-heart-eye2 ">
             <a href=""><i class="bi bi-archive"></i> </a>
-
             </div>
         </div>
         <div class="card-body">
           <h6 class="card-title ">CANON EOS DSLR Camera</h6>
           <div class="d-flex">
             <p class="text-danger py-2">$360</p>
-
-
           </div>
         </div>
       </div>
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
+        <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/gp11prd3-1-UiN.png" class="card-img-top w-60 mx-5 py-5" alt="Image 1">
           <button class="bg-dark text-white mt-5 py-1 add2 ">Add To Cart</button>
           <div class="icon-heart-eye py-5">
@@ -268,7 +258,7 @@ font-size: 16px;
         </div>
       </div>
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
+        <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/z8a1x34750011000000light-reversible-quilted-satin-jacket-1.png" class="card-img-top w-50 mx-5 py-3 " alt="Image 1">
           <button class="bg-dark text-white mt-5 py-1 add3 ">Add To Cart</button>
         <div class="icon-heart-eye2 py-5 ">
@@ -283,7 +273,7 @@ font-size: 16px;
         </div>
       </div>
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
+        <div class="card border-b" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/ideapad-gaming-3i-01-500x500-1.png" class="card-img-top py-3" alt="Image 1">
           <button class="bg-dark text-white mt-5 py-1 add2">Add To Cart</button>
           <div class="icon-heart-eye py-5">
@@ -310,7 +300,7 @@ font-size: 16px;
         </div>
       </div>
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
+        <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/g27cq4-500x500-1-3qt.png" class="card-img-top w-55" alt="Image 1">
           <button class="bg-dark text-white mt-3 py-1 ">Add To Cart</button>
           <div class="icon-heart-eye4 py-2 ">
@@ -336,7 +326,7 @@ font-size: 16px;
         </div>
       </div>
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
+        <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/g92-2-500x500-1.png" class="card-img-top  py-5" alt="Image 1">
           <button class="bg-dark text-white mt-5 py-1  add2">Add To Cart</button>
           <div class="icon-heart-eye py-5 ">
@@ -361,7 +351,7 @@ font-size: 16px;
         </div>
       </div>
       <div class="col-md-3 col-12 col-sm-6 col-lg-3">
-        <div class="card">
+        <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
           <img src="assets/ak-900-01-500x500-1.png" class="card-img-top py-3" alt="Image 1">
           <button class="bg-dark text-white mt-5 py-1  add2">Add To Cart</button>
           <div class="icon-heart-eye py-5 ">

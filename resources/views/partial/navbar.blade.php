@@ -133,20 +133,16 @@ visibility: hidden;
     left: 90px;
     color: gainsboro;
 }
-
 .section-1:hover{
     color: black;
 }
+ #navbarNav{
+    margin-left: 50vh;
+}
 
-    #navbarNav{
-        margin-left: 50vh;
-    }
-    .nav-item{
-
-    }
-    .navbar-brand{
-        margin-left:25vh;
-    }
+.navbar-brand{
+    margin-left:25vh;
+}
     .carousel-item img{
        width:150vh;
        height: 400px;

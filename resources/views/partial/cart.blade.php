@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A400%2C500"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Document</title>
+    <title>E-commerce</title>
 </head>
 <body>
 
@@ -236,7 +236,7 @@
             </div>
           </div>
           <div class="  mx-auto col-md-6 col-12">
-           <a href="http://127.0.0.1:8000/whislist" class="text-decoration-none"><button class="btn btn-lg btn-danger btn-button btn-block mx-5" type="button">View All Products</button></a>
+           <a href="{{route('whislist')}}" class="text-decoration-none"><button class="btn btn-lg btn-danger btn-button btn-block mx-5" type="button">View All Products</button></a>
           </div>
 
       </div>

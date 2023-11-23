@@ -12,8 +12,6 @@
 </head>
 <body>
 
-
-
 <div class=" py-5">
     <div class="  mx-5">
         <div class="d-flex mx-3">
@@ -56,7 +54,7 @@
         <div class="row">
             <div class="col-md-3 col-12 col-sm-6 col-lg-3">
                 <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                  <a href=""></a>  <img src="assets/g92-2-500x500-1-15L.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-5 col-md-3 col-12 col-sm-6 col-lg-3">
+                  <a href="{{route('details')}}"><img src="assets/g92-2-500x500-1-15L.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-5 col-md-3 col-12 col-sm-6 col-lg-3"></a>
                     <div class="icon-heart-eye py-5">
                         <a href=""><i class="bi bi-suit-heart"></i> </a>
                         <a href=""><i class="bi bi-eye"></i></a>
@@ -78,10 +76,9 @@
                 </div>
             </div>
 
-
             <div class="col-md-3 col-12 col-sm-6 col-lg-3">
                 <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
-                    <img src="assets/ak-900-01-500x500-1-3w8.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-4 col-md-3 col-12 col-sm-6 col-lg-3">
+                  <a href="{{route('details')}}">  <img src="assets/ak-900-01-500x500-1-3w8.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-4 col-md-3 col-12 col-sm-6 col-lg-3"></a>
                     <button class="bg-dark text-white mt-5 py-3 btn-cart">Add To Cart</button>
                     <div class="icon-heart-eye py-1">
                         <a href=""><i class="bi bi-suit-heart"></i> </a>
@@ -153,7 +150,7 @@
                 </div>
         </div>
         <div class=" mx-auto  col-12 col-md-3 col-sm-6 col-lg-6 ">
-       <a href="http://127.0.0.1:8000/whislist"> <button class="btn btn-lg btn-danger btn-button mx-5" type="button">View All Products</button></a>
+       <a href="{{route('whislist')}}"> <button class="btn btn-lg btn-danger btn-button mx-5" type="button">View All Products</button></a>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

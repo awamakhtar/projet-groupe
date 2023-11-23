@@ -7,7 +7,7 @@ Route::get('/home', [ProduitController::class, 'index'])->name('home');
 Route::get('/about', [ProduitController::class, 'about'])->name('about');
 Route::get('/sign', [ProduitController::class, 'sign'])->name('sign');
 Route::get('/login', [ProduitController::class, 'login'])->name('login');
-
+Route::get('/details',[ProduitController::class, 'details'])->name('details');
 
 Route::get('/', function () {
     return view('index');
@@ -19,11 +19,8 @@ Route::get('/whislist', function () {
 Route::get('/home',[ProduitController::class, 'index'])->name('home');
 Route::get('/about',[ProduitController::class, 'about'])->name('about');
 Route::get('/sign',[ProduitController::class, 'sign'])->name('sign');
-
-Route::get('/details', function () {
-    return view('details');
-});
-
+Route::get('/whislist',[ProduitController::class, 'whislist'])->name('whislist');
+Route::get('/details',[ProduitController::class, 'details'])->name('details');
 
 
 Route::controller(ProduitController::class)->group(function () {
@@ -40,11 +37,3 @@ Route::controller(ProduitController::class)->group(function () {
     Route::delete('/produit/{id}', 'destroy');
 
 });
-
-// Auth::routes();
-
-
-// Route::get('/index', [HomeController::class, 'index'])->name('index');
-// Route::get('/login', [loginController::class, 'login'])->name('login');
-// Route::get('/register', [loginController::class, 'register'])->name('register');
-// Route::get('/register-user', [loginController::class, 'create'])->name('create-user');
