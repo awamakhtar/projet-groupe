@@ -29,16 +29,13 @@ Route::controller(ProduitController::class)->group(function () {
     Route::get('/produit/{id}/edit', 'edit');
 
 
-    Route::any('/produit', 'store');
-    Route::patch('/produit/{id}', 'update');
-    Route::delete('/produit/{id}', 'destroy');
 
 });
 
 Auth::routes();
 
-Route::get('/index2', function () {
-    return redirect('/index2');
+Route::get('/index', function () {
+    return redirect('/index');
 });
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
