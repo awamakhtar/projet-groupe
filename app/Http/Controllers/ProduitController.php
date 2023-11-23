@@ -18,10 +18,10 @@ class ProduitController extends Controller
     }
 
 
-  
+
     public function sign()
     {
-        return view('sign');
+        return view('auth.register');
     }
 
 
@@ -38,7 +38,7 @@ class ProduitController extends Controller
 
     public function login()
     {
-        return view('aut.login');
+        return view('auth.login');
     }
 
     public function register()

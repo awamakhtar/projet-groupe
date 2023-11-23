@@ -175,11 +175,7 @@ visibility: hidden;
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
 
-                        <a class="nav-link" href="{{route('index')}}">Home</a>
-
-
-                        <a class="nav-link" href="{{ route('home') }}">Home</a>
-
+                        <a class="nav-link" href="{{route('home')}}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('about') }}">About</a>
@@ -188,11 +184,7 @@ visibility: hidden;
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-
-                        <a class="nav-link" href="{{route('sign'}}">Sign Up</a>
-
-                        <a class="nav-link" href="{{route('sign')}}">Sign Up</a>
-
+                        <a class="nav-link" href="{{ route('sign')}}">Sign Up</a>
                     </li>
                 </ul>
                     <form class="d-flex mx-5">

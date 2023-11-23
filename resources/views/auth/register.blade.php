@@ -25,7 +25,7 @@
             <div class="col-lg-5 col-md-12">
                 <h1>Create an Account</h1>
                 <p class="para3">Enter your details below</p>
-                <form action="{{route('create-user'}}" method="GET">
+                <form  method="GET">
                     @csrf
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="d-flex pt-3">
                         <p class="para3 me-3">Already have account?</p>
-                        <a href="{{route('login'}}" class="lg1 text-decoration-none text-black"> Log in</a>
+                        <a href="{{route('login')}}" class="lg1 text-decoration-none text-black"> Log in</a>
                     </div>
                   </form>
             </div>
