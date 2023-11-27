@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('password');
             $table->integer('statut')->default(1);
             $table->rememberToken();
-            $table->timestamps();
+            $table->timestamps();ggg
         });
     }
 
