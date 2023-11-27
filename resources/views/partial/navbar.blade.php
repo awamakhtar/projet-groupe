@@ -137,16 +137,28 @@ visibility: hidden;
     color: black;
 }
  #navbarNav{
-    margin-left: 50vh;
+    margin-left: 25vh;
 }
 
 .navbar-brand{
     margin-left:25vh;
 }
-    .carousel-item img{
-       width:150vh;
-       height: 400px;
-    }
+.carousel-item img{
+    width:150vh;
+    height: 400px;
+}
+.form-control{
+    margin-bottom: 2vh;
+}
+input{
+    width: 200vh;
+    background-color: #f2f2f2;
+}
+.bi-search{
+  position: relative;
+  right: 3vh;
+  top: 2vh;
+}
   </style>
 
     <div class="entete">
@@ -168,40 +180,38 @@ visibility: hidden;
             </button>
             <!-- Contenu de la barre de navigation -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav ">
                     <li class="nav-item">
-
-                        <a class="nav-link" href="{{route('home')}}">Home</a>
+                        <a class="nav-link text-black" href="{{route('home')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('about') }}">About</a>
+                        <a class="nav-link text-black" href="{{ route('about') }}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link text-black" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('sign')}}">Sign Up</a>
+                        <a class="nav-link text-black" href="{{ route('sign')}}">Sign Up</a>
                     </li>
                 </ul>
-                    <form class="d-flex mx-5">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                    <form class="d-flex">
+                        <input class="form-control border-0" type="search" placeholder="what are you looking for?" aria-label="Search" style="  background-color: #f2f2f2;">
+                        <i class="bi bi-search"></i>
                     </form>
                     <ul class="navbar-nav mx-5">
                         <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+                        <a class="nav-link fs-5" href="#"><i class="bi bi-suit-heart text-black"></i></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a class="nav-link fs-5" href="#"><i class="bi bi-cart3 text-black"></i></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link fs-5" href="#"><i class="bi bi-person text-black"></i></a>
                         </li>
                     </ul>
             </div>
         </div>
 </nav>
-
-
-
-
 
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

@@ -19,10 +19,7 @@ class ProduitController extends Controller
 
 
 
-    public function sign()
-    {
-        return view('auth.register');
-    }
+
 
 
     public function index()
@@ -36,15 +33,15 @@ class ProduitController extends Controller
         return view('about');
     }
 
-    public function login()
-    {
-        return view('auth.login');
-    }
+    // public function login()
+    // {
+    //     return view('auth.login');
+    // }
 
-    public function register()
-    {
-        return view('auth.register');
-    }
+    // public function register()
+    // {
+    //     return view('auth.register');
+    // }
 
     public function details()
     {
@@ -59,6 +56,10 @@ class ProduitController extends Controller
     public function contact()
     {
         return view('contact');
+    }
+    public function footer()
+    {
+        return view('partial.footer');
     }
 
 

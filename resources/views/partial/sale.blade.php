@@ -79,7 +79,7 @@
             <div class="col-md-3 col-12 col-sm-6 col-lg-3">
                 <div class="card border-0" style=" background-color: #f2f2f2;height: 250px;">
                   <a href="{{route('details')}}">  <img src="assets/ak-900-01-500x500-1-3w8.png" alt="" class="card-img-top mx-5 h-50 w-50 mt-4 col-md-3 col-12 col-sm-6 col-lg-3"></a>
-                    <button class="bg-dark text-white mt-5 py-3 btn-cart">Add To Cart</button>
+                    <button type="submit" form="" class="bg-dark text-white mt-5 py-3 btn-cart">Add To Cart</button>
                     <div class="icon-heart-eye py-1">
                         <a href=""><i class="bi bi-suit-heart"></i> </a>
                         <a href=""><i class="bi bi-eye"></i></a>

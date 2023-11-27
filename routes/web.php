@@ -1,13 +1,15 @@
 <?php
 use App\Http\Controllers\ProduitController;
+
+use App\Http\Controllers\loginController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/home', [ProduitController::class, 'index'])->name('home');
-Route::get('/about', [ProduitController::class, 'about'])->name('about');
-Route::get('/sign', [ProduitController::class, 'sign'])->name('sign');
-Route::get('/login', [ProduitController::class, 'login'])->name('login');
-Route::get('/details',[ProduitController::class, 'details'])->name('details');
+// Route::get('/home', [ProduitController::class, 'index'])->name('home');
+// Route::get('/about', [ProduitController::class, 'about'])->name('about');
+// Route::get('/sign', [loginController::class, 'sign'])->name('sign');
+// Route::get('/login', [loginController::class, 'login'])->name('login');
+// Route::get('/details',[ProduitController::class, 'details'])->name('details');
 
 Route::get('/', function () {
     return view('index');
@@ -18,9 +20,13 @@ Route::get('/whislist', function () {
 });
 Route::get('/home',[ProduitController::class, 'index'])->name('home');
 Route::get('/about',[ProduitController::class, 'about'])->name('about');
-Route::get('/sign',[ProduitController::class, 'sign'])->name('sign');
+Route::get('/footer',[ProduitController::class, 'footer'])->name('footer');
+Route::get('/sign',[loginController::class, 'register'])->name('sign');
+Route::get('/login', [loginController::class, 'login'])->name('login');
 Route::get('/whislist',[ProduitController::class, 'whislist'])->name('whislist');
 Route::get('/details',[ProduitController::class, 'details'])->name('details');
+Route::get('/register-user', [loginController::class, 'create'])->name('create-user');
+
 
 
 Route::controller(ProduitController::class)->group(function () {

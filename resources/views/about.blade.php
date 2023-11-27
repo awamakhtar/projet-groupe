@@ -69,7 +69,8 @@
 }
 
 .tit{
-    margin-left: 20px;
+    margin-left: 15px;
+    font-size: 14px;
 }
 
 .tit1:hover{
@@ -86,37 +87,30 @@ color: aliceblue;
     top: 100px;
 
 }
-.row{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-
-}
 .point{
     position: relative;
     top: -70px;
     color: blueviolet !important;
     background-color: blue !important;
 }
-.card-img-top1{
+.card{
     width: 200px;
-    height: 200px;
+
+
 }
-
+.card:hover{
+    background-color: rgb(250, 61, 61);
+}
 @media only screen and (max-width: 768px){
-
     .bloc-titre{
         gap: 150px;
         display: grid;
         grid-template-columns: auto;
          width: 100%;
-
     }
     .titres{
     position: relative;
     left: 15px;
-
-
 }
 .bloc-cash{
     position: relative;
@@ -125,35 +119,26 @@ color: aliceblue;
         display: grid;
         grid-template-columns: auto auto;
          width: 100%;
-
     }
 
-
-    .secicone{
-        gap: 150px;
-        display: grid;
-        grid-template-columns: auto;
-        width: 100%;
-        display: none;
-
-    }
   }
   .secicone{
-    position: relative;
-    top: 140px;
+    bottom: 20vh;
     display: flex;
     justify-content: center;
     gap: 50px;
-
-
   }
-
-
-
+.line{
+    margin-bottom: 10vh;
+}
+/* .card-image{
+   margin-left:40px;
+} */
     </style>
 </head>
 <body>
-<!-- @include('partial.navbar') -->
+@include('partial.navbar')
+<hr class="line ">
 <div class="bloc-titre">
    <div class="titres">
     <h1 >Our Story</h1>
@@ -165,123 +150,104 @@ color: aliceblue;
     <img src="assets/portrait-two-african-females-holding-shopping-bags-while-reacting-something-their-smartphone-1.png" class="img-titre">
    </div>
 </div>
- <div class="bloc-cash">
-       <div class="card-cash">
-       <span><ion-icon name="cash-outline" class="cash-icone"></ion-icon></span>
-       <h1 class="tit1">10.5k </h1>
-       <p class="tit">Sallers active our site</p>
-       </div>
 
-       <div class="card-cash">
-        <s><ion-icon name="cash-outline" class="cash-icone"></ion-icon></s>
-        <h1 class="tit1">10.5k </h1>
-        <p class="tit">Sallers active our site</p>
-        </div>
-
-        <div class="card-cash">
-            <s><ion-icon name="cash-outline" class="cash-icone"></ion-icon></s>
-            <h1 class="tit1">10.5k </h1>
-            <p class="tit">Sallers active our site</p>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="card mx-5">
+                    <img src="./assets/services-PeS.png" alt="" width="35%" class="mx-5 mt-3">
+                    <h1 class="text-center">10.5K</h1>
+                    <p class="text-center">Sallers active our site</p>
+                </div>
             </div>
 
-            <div class="card-cash">
-                <s><ion-icon name="cash-outline" class="cash-icone"></ion-icon></s>
-                <h1 class="tit1">10.5k </h1>
-                <p class="tit">Sallers active our site</p>
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="card mx-5">
+                    <img src="./assets/services-NJn.png" alt="" width="35%" class="mx-5 mt-3">
+                    <h1 class="text-center">33K</h1>
+                    <p class="text-center">Mopnthly Produduct Sale</p>
                 </div>
- </div>
+            </div>
 
-<div class="carousel">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" class="point" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" class="point" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" class="point" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" class="point" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" class="point" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      <button type="button" class="point" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="card card-img2 mx-5">
+                    <img src="./assets/services-PeS.png" alt="" width="35%" class="mx-5 mt-3">
+                    <h1 class="text-center">45.5K</h1>
+                    <p class="text-center">Customer active in our site</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                <div class="card mx-5">
+                    <img src="./assets/services-2C2.png" alt="" width="35%" class="mx-5 mt-3">
+                    <h1 class="text-center">25K</h1>
+                    <p class="text-center">Anual gross sale in our site</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="card" style="width: 18rem;">
-                <img src="assets/image-46.png" class="card-img-top1" alt="Cat Image">
-                <div class="card-body">
-                  <h5 class="card-title">TOME CUREIE</h5>
-                  <p class="card-text">funder& Charmon</p>
-                  <span><ion-icon name="logo-facebook"></ion-icon></span>
-                  <span><ion-icon name="logo-instagram"></ion-icon></span>
-                  <span><ion-icon name="logo-linkedin"></ion-icon></span>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-md-3">
-              <div class="card" style="width: 18rem;">
-                <img src="assets/image-47.png" class="card-img-top w-50" alt="Cat Image">
-                <div class="card-body">
-                    <h5 class="card-title">TOME CUREIE</h5>
-                    <p class="card-text">funder& Charmon</p>
-                    <span><ion-icon name="logo-facebook"></ion-icon></span>
-                    <span><ion-icon name="logo-instagram"></ion-icon></span>
-                    <span><ion-icon name="logo-linkedin"></ion-icon></span>
-                </div>
-              </div>
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                 <div class="card border-0 mx-5" style="background-color: #f2f2f2;height: 250px;">
+                     <img src="assets/image-46.png" alt="" class="w-50 mx-5 mt-5">
+                 </div>
+                 <div class="card-body">
+                    <h5>TOME CUREIE</h5>
+                    <p>funder& Charmon</p>
+                    <img src="assets/icon-twitter-j9U.png" alt="" width="6%">
+                    <img src="assets/icon-instagram-U5x.png" alt="" width="6%">
+                    <img src="assets/icon-linkedin-7rS.png" alt="" width="6%">
+                 </div>
             </div>
-
-            <div class="col-md-3">
-              <div class="card" style="width: 18rem;">
-                <img src="assets/image-51.png" class="card-img-top1" alt="Cat Image">
-                <div class="card-body">
-                    <h5 class="card-title">TOME CUREIE</h5>
-                    <p class="card-text">funder& Charmon</p>
-                    <span><ion-icon name="logo-facebook"></ion-icon></span>
-                    <span><ion-icon name="logo-instagram"></ion-icon></span>
-                    <span><ion-icon name="logo-linkedin"></ion-icon></span>
-                </div>
-              </div>
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                 <div class="card border-0 mx-5" style="background-color: #f2f2f2;height: 250px;">
+                     <img src="assets/image-51.png" alt="" class="w-50 mx-5 mt-5">
+                 </div>
+                 <div class="card-body">
+                    <h5>Emma Watson</h5>
+                    <p>Managing Director</p>
+                    <img src="assets/icon-twitter-j9U.png" alt="" width="6%">
+                    <img src="assets/icon-instagram-U5x.png" alt="" width="6%">
+                    <img src="assets/icon-linkedin-7rS.png" alt="" width="6%">
+                 </div>
             </div>
-          </div>
+            <div class="col-md-3 col-12 col-sm-6 col-lg-3">
+                 <div class="card border-0 mx-5" style="background-color: #f2f2f2;height: 250px;">
+                     <img src="assets/image-47.png" alt="" class="w-50 mx-5 mt-5">
+                 </div>
+                 <div class="card-body">
+                    <h5>Will Smith</h5>
+                    <p>Product Designer</p>
+                    <img src="assets/icon-twitter-j9U.png" alt="" width="6%">
+                    <img src="assets/icon-instagram-U5x.png" alt="" width="6%">
+                    <img src="assets/icon-linkedin-7rS.png" alt="" width="6%">
+                 </div>
+            </div>
         </div>
+    </div>
+
+    <div class="container">
+    <div class="row text-center pt-5">
+      <div class="col-lg-4 col-md-12">
+        <img src="./assets/icon-car.png" alt="" width="25%">
+        <h4 class="pt-3">FREE AND FAST DELIVERY</h4>
+        <p>Free delivery for all orders over $140</p>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <img src="./assets/icon-kit.png" alt="" width="25%">
+        <h4 class="pt-3">24/7 CUSTOMER SERVICE</h4>
+        <p>Friendly 24/7 customer support</p>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <img src="./assets/icon-validate.png" alt="" width="25%">
+        <h4 class="pt-3">MONEY BACK GUARANTEE</h4>
+        <p>We reurn money within 30 days</p>
       </div>
     </div>
-
-    <!-- Navigation -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-
-
-    <!-- <div> class="secicone"> -->
-  <div class="secicone ">
-    <div>
-        <span><ion-icon name="cash-outline" class="cash-icone"></ion-icon></span>
-        <h6>FREE AND FAST DELIVERY</h6>
-        <p>Free delivery for all orders over $140</p>
-    </div>
-    <div>
-        <span><ion-icon name="cash-outline" class="cash-icone"></ion-icon></span>
-        <h6>FREE AND FAST DELIVERY</h5>
-        <p>Free delivery for all orders over $140</p>
-    </div>
-    <div>
-        <span><ion-icon name="cash-outline" class="cash-icone"></ion-icon></span>
-        <h6>FREE AND FAST DELIVERY</h6>
-        <p>Free delivery for all orders over $140</p>
-    </div>
-
-    </div>
-    @include('partial.footer')
-
-
+  </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -292,6 +258,6 @@ color: aliceblue;
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+  @include('partial.footer')
 </body>
 </html>

@@ -13,6 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
+
+        Schema::create('produits', function (Blueprint $table) {
+            $table->id();
+            $table->string('categorie'); // nouveau
+            $table->integer('quantite'); // nouveau
+            $table->double('prix'); // nouveau
+            $table->timestamps();
+        });
+
+
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
