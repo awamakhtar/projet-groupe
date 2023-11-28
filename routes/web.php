@@ -2,6 +2,7 @@
 use App\Http\Controllers\ProduitController;
 
 use App\Http\Controllers\loginController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 
@@ -18,11 +19,22 @@ Route::get('/', function () {
 Route::get('/whislist', function () {
     return view('whislist');
 });
+Auth::routes();
+
+Route::get('/index', function () {
+    return redirect('/index');
+});
+
 Route::get('/home',[ProduitController::class, 'index'])->name('home');
 Route::get('/about',[ProduitController::class, 'about'])->name('about');
 Route::get('/footer',[ProduitController::class, 'footer'])->name('footer');
+Route::get('/contact', [ProduitController::class, 'contact'])->name('contact');
 Route::get('/sign',[loginController::class, 'register'])->name('sign');
 Route::get('/login', [loginController::class, 'login'])->name('login');
+
+Route::get('/checkout', [ProduitController::class, 'checkout'])->name('checkout');
+Route::get('/AddCart', [ProduitController::class, 'AddCart'])->name('AddCart');
+
 Route::get('/whislist',[ProduitController::class, 'whislist'])->name('whislist');
 Route::get('/details',[ProduitController::class, 'details'])->name('details');
 Route::get('/register-user', [loginController::class, 'create'])->name('create-user');

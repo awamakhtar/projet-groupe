@@ -57,6 +57,14 @@ class ProduitController extends Controller
     {
         return view('contact');
     }
+    public function checkout()
+    {
+        return view('checkout');
+    }
+    public function AddCart()
+    {
+        return view('AddCart');
+    }
     public function footer()
     {
         return view('partial.footer');

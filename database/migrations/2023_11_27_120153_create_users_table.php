@@ -1,28 +1,15 @@
 <?php
 
+// dans le fichier de migration create_users_table.php
+
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateUsersTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
-
-        Schema::create('produits', function (Blueprint $table) {
-            $table->id();
-            $table->string('categorie'); // nouveau
-            $table->integer('quantite'); // nouveau
-            $table->double('prix'); // nouveau
-            $table->timestamps();
-        });
-
-
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
@@ -34,13 +21,9 @@ return new class extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('users');
     }
-};
+}
+

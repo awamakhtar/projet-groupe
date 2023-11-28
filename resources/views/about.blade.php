@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+    <title>about</title>
 
 <style>
 .titres{
@@ -139,6 +139,12 @@ color: aliceblue;
 <body>
 @include('partial.navbar')
 <hr class="line ">
+<nav aria-label="breadcrumb" class="mx-5">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#" class="text-decoration-none text-secondary">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page" style="color:black;">About</li>
+  </ol>
+</nav>
 <div class="bloc-titre">
    <div class="titres">
     <h1 >Our Story</h1>
